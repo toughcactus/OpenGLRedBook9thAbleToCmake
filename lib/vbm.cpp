@@ -4,7 +4,9 @@
 #include "vgl.h"
 
 #include <stdio.h>
-
+/* modify by Robin, 20211112, to use memset etc. */
+#include <string.h>
+/* end */
 VBObject::VBObject(void)
     : m_vao(0),
       m_attribute_buffer(0),
